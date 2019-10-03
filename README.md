@@ -1,2 +1,2 @@
 # JMind
-JavaMind
+MindをJVM上で動くように!
