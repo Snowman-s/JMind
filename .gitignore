@@ -3,4 +3,6 @@ sandbox/
 *.sym
 *.mco
 *.exe
+*.inf
+uniencode.src
 uJAVA.src
