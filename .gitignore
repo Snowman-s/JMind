@@ -1,5 +1,5 @@
 sandbox/
-./ＪＡＶＡ.his
-./ＪＡＶＡ.sys
-./ＪＡＶＡ.mco
-./ＪＡＶＡ.exe
+*.his
+*.sym
+*.mco
+*.exe
