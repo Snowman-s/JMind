@@ -5,5 +5,7 @@ sandbox/
 *.exe
 *.inf
 uniencode.src
-uJAVA.src
+ujmindc.src
 uopecode.src
+jmind/hello.class
+ucompiler.src
