@@ -1,10 +1,10 @@
 「uniencode.src」を　コンパイル。
 「unidecode.src」を　コンパイル。
-「uutf8rap.src」を　コンパイル。
-「utility\ubytecomposition.src」を　コンパイル。
-「utility\uruntimefieldmanager.src」を　コンパイル。
-「uopecode.src」を　コンパイル。
-「ucompiler.src」を　コンパイル。
+「sutf8rap.src」を　コンパイル。
+「utility\sbytecomposition.src」を　コンパイル。
+「utility\sruntimefieldmanager.src」を　コンパイル。
+「sopecode.src」を　コンパイル。
+「scompiler.src」を　コンパイル。
 
 出力先は　ファイル。
 ソースコードは　ファイル。
