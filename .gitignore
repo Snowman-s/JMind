@@ -8,6 +8,7 @@ unidecode.src
 sjmindc.src
 sopecode.src
 scompiler.src
-sutf8.src
+sutf8rap.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
+utility/sfilereadwrite.src
