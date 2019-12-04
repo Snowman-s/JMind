@@ -12,3 +12,5 @@ sutf8rap.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
 utility/sfilereadwrite.src
+word/sdynamic.src
+word/sinspect_character.src

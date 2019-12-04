@@ -1,9 +1,11 @@
 「uniencode.src」を　コンパイル。
 「unidecode.src」を　コンパイル。
 「sutf8rap.src」を　コンパイル。
+「word\sinspect_character.src」を　コンパイル。
 「utility\sbytecomposition.src」を　コンパイル。
 「utility\sruntimefieldmanager.src」を　コンパイル。
 「utility\sfilereadwrite.src」を　コンパイル。
+「word\sdynamic.src」を　コンパイル。
 「sopecode.src」を　コンパイル。
 「scompiler.src」を　コンパイル。
 
