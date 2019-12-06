@@ -5,8 +5,9 @@
 「utility\sbytecomposition.src」を　コンパイル。
 「utility\sruntimefieldmanager.src」を　コンパイル。
 「utility\sfilereadwrite.src」を　コンパイル。
-「word\sdynamic.src」を　コンパイル。
 「sopecode.src」を　コンパイル。
+「word\sdynamic.src」を　コンパイル。
+「word\scalc.src」を　コンパイル。
 「scompiler.src」を　コンパイル。
 
 （文字列・文字列・文字列...・文字列個数 -＞　・）
@@ -63,6 +64,7 @@
     関数定義文字列を　クリアし
 
     動的単語情報を初期化し、
+    計算単語情報集を初期化し、
 
     起動引数個数が　０に　等しい　ならば
         「起動引数を与えて下さい」を　一行表示し、

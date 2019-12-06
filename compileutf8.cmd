@@ -4,6 +4,7 @@ schange runtimefieldmanager.src
 schange filereadwrite.src
 cd ..\word\
 schange dynamic.src
+schange calc.src
 schange inspect_character.src
 cd ..
 schange compiler.src

@@ -14,3 +14,4 @@ utility/sruntimefieldmanager.src
 utility/sfilereadwrite.src
 word/sdynamic.src
 word/sinspect_character.src
+word/scalc.src
