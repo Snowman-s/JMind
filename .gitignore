@@ -9,9 +9,11 @@ sjmindc.src
 sopecode.src
 scompiler.src
 sutf8rap.src
+sfunctiontype.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
 utility/sfilereadwrite.src
 word/sdynamic.src
 word/sinspect_character.src
 word/scalc.src
+word/sinteger.src

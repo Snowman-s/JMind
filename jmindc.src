@@ -3,9 +3,11 @@
 「sutf8rap.src」を　コンパイル。
 「word\sinspect_character.src」を　コンパイル。
 「utility\sbytecomposition.src」を　コンパイル。
+「sfunctiontype.src」を　コンパイル。
 「utility\sruntimefieldmanager.src」を　コンパイル。
 「utility\sfilereadwrite.src」を　コンパイル。
 「sopecode.src」を　コンパイル。
+「word\sinteger.src」を　コンパイル。
 「word\sdynamic.src」を　コンパイル。
 「word\scalc.src」を　コンパイル。
 「scompiler.src」を　コンパイル。
@@ -53,7 +55,7 @@
     ※ＴＯＤＯいつか構造体に
     メソッド名ランタイム定数フィールドインデックスは　変数
     メソッド型ランタイム定数フィールドインデックスは　変数
-    メソッドオペコードは　文字列実体　長さ　１００バイト
+    メソッドオペコードは　文字列実体　長さ　３００バイト
     メソッドローカル変数個数は　変数
 
     読み出し文字列ＳＪＩＳは　文字列
@@ -65,6 +67,7 @@
 
     動的単語情報を初期化し、
     計算単語情報集を初期化し、
+    整数の定数フィールドの認識情報をクリアし
 
     起動引数個数が　０に　等しい　ならば
         「起動引数を与えて下さい」を　一行表示し、
