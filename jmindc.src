@@ -5,6 +5,7 @@
 「utility\sbytecomposition.src」を　コンパイル。
 「sfunctiontype.src」を　コンパイル。
 「utility\sruntimefieldmanager.src」を　コンパイル。
+「runtimefield\sruntimefieldclass.src」を　コンパイル。
 「utility\sfilereadwrite.src」を　コンパイル。
 「sopecode.src」を　コンパイル。
 「word\sinteger.src」を　コンパイル。
@@ -129,7 +130,7 @@
     繰り返し
 
     ソースコード名を　４文字だけ　右側削除し、ソースコード名の　純ファイル名を得て
-    ランタイム定数フィールド数集計で　クラスのランタイム定数フィールドを得て
+    ランタイム定数フィールド数集計で　作成クラスのランタイム定数フィールドを得て
     ランタイム定数フィールド数集計に　入れ
     ランタイム定数フィールドバイナリ集計に　追加し
     

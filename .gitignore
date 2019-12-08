@@ -13,6 +13,7 @@ sfunctiontype.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
 utility/sfilereadwrite.src
+runtimefield/sruntimefieldclass.src
 word/sdynamic.src
 word/sinspect_character.src
 word/scalc.src
