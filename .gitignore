@@ -13,7 +13,9 @@ sfunctiontype.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
 utility/sfilereadwrite.src
-runtimefield/sruntimefieldclass.src
+runtimefield/sruntimefieldClass.src
+runtimefield/sruntimefieldNameAndType.src
+runtimefield/sruntimefieldMethod.src
 word/sdynamic.src
 word/sinspect_character.src
 word/scalc.src

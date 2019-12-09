@@ -5,7 +5,9 @@
 「utility\sbytecomposition.src」を　コンパイル。
 「sfunctiontype.src」を　コンパイル。
 「utility\sruntimefieldmanager.src」を　コンパイル。
-「runtimefield\sruntimefieldclass.src」を　コンパイル。
+「runtimefield\sruntimefieldClass.src」を　コンパイル。
+「runtimefield\sruntimefieldNameAndType.src」を　コンパイル。
+「runtimefield\sruntimefieldMethod.src」を　コンパイル。
 「utility\sfilereadwrite.src」を　コンパイル。
 「sopecode.src」を　コンパイル。
 「word\sinteger.src」を　コンパイル。
@@ -62,6 +64,11 @@
     読み出し文字列ＳＪＩＳは　文字列
 
     本体とは
+    起動引数個数が　０に　等しい　ならば
+        「起動引数を与えて下さい」を　一行表示し、
+        実行終わり、
+    つぎに
+
     ソースコード名を　クリアし
     カレントディレクトリと　起動引数（１個目）で　絶対パスと相対パスをマージし　複写して　一行表示したのち　ソースコード名に　追加し
     関数定義文字列を　クリアし
@@ -69,11 +76,8 @@
     動的単語情報を初期化し、
     計算単語情報集を初期化し、
     整数の定数フィールドの認識情報をクリアし
-
-    起動引数個数が　０に　等しい　ならば
-        「起動引数を与えて下さい」を　一行表示し、
-        実行終わり、
-    つぎに
+    NameAndTypeランタイム定数フィールド情報初期化し
+    クラスランタイム定数フィールド情報初期化し
 
     ランタイム定数フィールドバイナリ集計を　クリアし
     ランタイム定数フィールド数集計を　クリアし
