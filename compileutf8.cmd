@@ -11,6 +11,7 @@ cd ..\runtimefield\
 schange runtimefieldClass.src
 schange runtimefieldNameAndType.src
 schange runtimefieldMethod.src
+schange runtimefieldField.src
 cd ..
 schange compiler.src
 schange functiontype.src
