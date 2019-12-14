@@ -7,6 +7,7 @@ schange dynamic.src
 schange calc.src
 schange inspect_character.src
 schange integer.src
+schange check.src
 cd ..\runtimefield\
 schange runtimefieldClass.src
 schange runtimefieldNameAndType.src
