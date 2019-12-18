@@ -8,6 +8,7 @@ schange calc.src
 schange inspect_character.src
 schange integer.src
 schange check.src
+schange if.src
 cd ..\runtimefield\
 schange runtimefieldClass.src
 schange runtimefieldNameAndType.src
