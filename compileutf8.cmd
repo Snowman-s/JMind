@@ -15,6 +15,7 @@ schange runtimefieldNameAndType.src
 schange runtimefieldMethod.src
 schange runtimefieldField.src
 cd ..
+schange debug.src
 schange compiler.src
 schange functiontype.src
 schange opecode.src

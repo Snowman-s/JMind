@@ -11,6 +11,7 @@ sopecode.src
 scompiler.src
 sutf8rap.src
 sfunctiontype.src
+sdebug.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
 utility/sfilereadwrite.src
