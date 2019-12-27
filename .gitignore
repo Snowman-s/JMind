@@ -15,8 +15,9 @@ sdebug.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
 file/sfilereadwrite.src
-file/sfileopecode.src
 file/sfileruntimefield.src
+file/sfileopecode.src
+file/sfilestackmaptable.src
 runtimefield/sruntimefieldClass.src
 runtimefield/sruntimefieldNameAndType.src
 runtimefield/sruntimefieldMethod.src
