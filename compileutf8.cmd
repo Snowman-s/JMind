@@ -1,7 +1,10 @@
 cd .\utility\
 schange bytecomposition.src
 schange runtimefieldmanager.src
+cd ..\file\
 schange filereadwrite.src
+schange fileopecode.src
+schange fileruntimefield.src
 cd ..\word\
 schange dynamic.src
 schange calc.src
