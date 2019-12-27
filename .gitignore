@@ -1,4 +1,5 @@
 jmind/
+data/
 *.his
 *.sym
 *.mco
@@ -10,9 +11,13 @@ sopecode.src
 scompiler.src
 sutf8rap.src
 sfunctiontype.src
+sdebug.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
-utility/sfilereadwrite.src
+file/sfilereadwrite.src
+file/sfileruntimefield.src
+file/sfileopecode.src
+file/sfilestackmaptable.src
 runtimefield/sruntimefieldClass.src
 runtimefield/sruntimefieldNameAndType.src
 runtimefield/sruntimefieldMethod.src

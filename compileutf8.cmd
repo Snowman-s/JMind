@@ -1,7 +1,11 @@
 cd .\utility\
 schange bytecomposition.src
 schange runtimefieldmanager.src
+cd ..\file\
 schange filereadwrite.src
+schange fileopecode.src
+schange fileruntimefield.src
+schange filestackmaptable.src
 cd ..\word\
 schange dynamic.src
 schange calc.src
@@ -15,6 +19,7 @@ schange runtimefieldNameAndType.src
 schange runtimefieldMethod.src
 schange runtimefieldField.src
 cd ..
+schange debug.src
 schange compiler.src
 schange functiontype.src
 schange opecode.src
