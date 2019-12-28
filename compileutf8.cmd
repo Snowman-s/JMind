@@ -13,6 +13,7 @@ schange inspect_character.src
 schange integer.src
 schange check.src
 schange if.src
+schange for.src
 cd ..\runtimefield\
 schange runtimefieldClass.src
 schange runtimefieldNameAndType.src
