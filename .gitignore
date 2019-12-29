@@ -18,6 +18,7 @@ file/sfilereadwrite.src
 file/sfileruntimefield.src
 file/sfileopecode.src
 file/sfilestackmaptable.src
+file/sfilelocalvariable.src
 runtimefield/sruntimefieldClass.src
 runtimefield/sruntimefieldNameAndType.src
 runtimefield/sruntimefieldMethod.src

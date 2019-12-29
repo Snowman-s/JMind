@@ -6,6 +6,7 @@ schange filereadwrite.src
 schange fileopecode.src
 schange fileruntimefield.src
 schange filestackmaptable.src
+schange filelocalvariable.src
 cd ..\word\
 schange dynamic.src
 schange calc.src
