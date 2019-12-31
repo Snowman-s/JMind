@@ -25,6 +25,7 @@ schange debug.src
 schange compiler.src
 schange functiontype.src
 schange opecode.src
+schange stackmaptable.src
 schange utf8rap.src
 
 umind jmindc.src
