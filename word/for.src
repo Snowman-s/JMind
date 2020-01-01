@@ -68,7 +68,7 @@ for単語の定数フィールドを追加するとは
 
         ※！！！
         (Integerインデックスが積まれた)
-        
+
         ※Methodref
         メソッドランタイム定数フィールド数に　追加数を　加え
         「java/lang/Integer」と　「intValue」と　「()I」で
