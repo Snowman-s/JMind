@@ -8,6 +8,8 @@ schange fileruntimefield.src
 schange filestackmaptable.src
 schange filelocalvariable.src
 cd ..\word\
+schange cwordcheck.src
+schange string.src
 schange dynamic.src
 schange calc.src
 schange inspect_character.src
@@ -16,6 +18,7 @@ schange cinteger.src
 schange check.src
 schange if.src
 schange for.src
+schange wordcheck.src
 cd ..\runtimefield\
 schange runtimefieldClass.src
 schange runtimefieldNameAndType.src

@@ -16,14 +16,17 @@
 「file\sfilestackmaptable.src」を　コンパイル。
 「file\sfilelocalvariable.src」を　コンパイル。
 「sopecode.src」を　コンパイル。
-「sstackmaptable.src」を　コンパイル
-「word\scinteger.src」を　コンパイル。。
+「sstackmaptable.src」を　コンパイル。
+「word\scwordcheck.src」を　コンパイル。
+「word\sstring.src」を　コンパイル。
+「word\scinteger.src」を　コンパイル。
 「word\sloopcounter.src」を　コンパイル。
 「word\sdynamic.src」を　コンパイル。
 「word\scalc.src」を　コンパイル。
 「word\scheck.src」を　コンパイル。
 「word\sif.src」を　コンパイル。
 「word\sfor.src」を　コンパイル。
+「word\swordcheck.src」を　コンパイル。
 「scompiler.src」を　コンパイル。
 
 （文字列・文字列・文字列...・文字列個数 -＞　・）
