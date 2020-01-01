@@ -11,7 +11,8 @@ cd ..\word\
 schange dynamic.src
 schange calc.src
 schange inspect_character.src
-schange integer.src
+schange loopcounter.src
+schange cinteger.src
 schange check.src
 schange if.src
 schange for.src

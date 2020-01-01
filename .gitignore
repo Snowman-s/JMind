@@ -28,6 +28,8 @@ word/sdynamic.src
 word/sinspect_character.src
 word/scalc.src
 word/sinteger.src
+word/scinteger.src
+word/sloopcounter.src
 word/scheck.src
 word/sif.src
 word/sfor.src
