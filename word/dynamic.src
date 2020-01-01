@@ -159,7 +159,7 @@
 
     動的単語情報の　動的メソッド引数数（インデックス）を　回数指定し、
         ※aload_1
-        １で　aload_nのデータを得て　オペコードのバイナリを追加し
+        Stackaloadのデータを得て　オペコードのバイナリを追加し
         ※invokevirtual //Method
         pop関数を得て、invokevirtualのデータを得て　オペコードのバイナリを追加し
         ※checkcast #11+2i

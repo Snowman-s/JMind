@@ -200,11 +200,11 @@
     Stack定義インデックスに　入れ
 
     ※aload_1
-    １で　aload_nのデータを得て　オペコードのバイナリを追加し
+    Stackaloadのデータを得て　オペコードのバイナリを追加し
 
     ２を　回数指定し
         ※aload_1
-        １で　aload_nのデータを得て　オペコードのバイナリを追加し
+        Stackaloadのデータを得て　オペコードのバイナリを追加し
         ※invokevirtual //Method
         pop関数を得て、invokevirtualのデータを得て　オペコードのバイナリを追加し
         ※checkcast #n+1
