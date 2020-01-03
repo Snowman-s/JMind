@@ -18,6 +18,7 @@ schange cinteger.src
 schange check.src
 schange if.src
 schange for.src
+schange others.src
 schange wordcheck.src
 cd ..\runtimefield\
 schange runtimefieldClass.src
