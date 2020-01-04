@@ -4,6 +4,7 @@ data/
 *.sym
 *.mco
 *.exe
+*.class
 uniencode.src
 unidecode.src
 sjmindc.src
