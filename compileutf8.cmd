@@ -10,7 +10,7 @@ schange filelocalvariable.src
 cd ..\word\
 schange cwordcheck.src
 schange string.src
-schange dynamic.src
+schange print.src
 schange calc.src
 schange inspect_character.src
 schange loopcounter.src

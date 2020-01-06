@@ -21,7 +21,7 @@
 「word\sstring.src」を　コンパイル。
 「word\scinteger.src」を　コンパイル。
 「word\sloopcounter.src」を　コンパイル。
-「word\sdynamic.src」を　コンパイル。
+「word\sprint.src」を　コンパイル。
 「word\scalc.src」を　コンパイル。
 「word\scheck.src」を　コンパイル。
 「word\sif.src」を　コンパイル。
@@ -89,7 +89,7 @@
     カレントディレクトリと　起動引数（１個目）で　絶対パスと相対パスをマージし
     文字列をログし　ソースコード名に　追加し
 
-    動的単語情報を初期化し、
+    表示単語情報を初期化し、
     計算単語情報集を初期化し、
     検査単語情報集を初期化し、
     NameAndTypeランタイム定数フィールド情報初期化し
