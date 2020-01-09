@@ -1,3 +1,4 @@
+@echo off
 cd .\utility\
 schange bytecomposition.src
 schange runtimefieldmanager.src
