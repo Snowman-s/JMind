@@ -25,7 +25,7 @@
 「word\scalc.src」を　コンパイル。
 「word\scheck.src」を　コンパイル。
 「word\sif.src」を　コンパイル。
-「word\sfor.src」を　コンパイル。
+「word\sloop.src」を　コンパイル。
 「word\sothers.src」を　コンパイル。
 「word\scomment.src」を　コンパイル。
 「word\swordcheck.src」を　コンパイル。
@@ -95,7 +95,7 @@
     NameAndTypeランタイム定数フィールド情報初期化し
     クラスランタイム定数フィールド情報初期化し
     分岐単語情報集を初期化し
-    for単語情報集を初期化し
+    ループ単語情報集を初期化し
 
     ランタイム定数フィールド数集計と
     StackMapTableランタイム定数フィールド数集計を　クリアし

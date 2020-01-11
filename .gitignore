@@ -35,7 +35,7 @@ word/scinteger.src
 word/sloopcounter.src
 word/scheck.src
 word/sif.src
-word/sfor.src
+word/sloop.src
 word/sothers.src
 word/scomment.src
 word/swordcheck.src

@@ -18,7 +18,7 @@ schange loopcounter.src
 schange cinteger.src
 schange check.src
 schange if.src
-schange for.src
+schange loop.src
 schange others.src
 schange comment.src
 schange wordcheck.src
