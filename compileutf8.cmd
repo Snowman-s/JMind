@@ -20,6 +20,7 @@ schange check.src
 schange if.src
 schange loop.src
 schange others.src
+schange input.src
 schange comment.src
 schange wordcheck.src
 cd ..\runtimefield\

@@ -1,0 +1,194 @@
+入力単語情報型は　型紙
+        入力単語名は　文字列
+        入力メソッド名は　文字列
+        入力メソッド型は　文字列
+        ラッパークラスは　文字列
+        ラッパーメソッド型は　文字列
+
+    入力単語情報は
+        入力単語名と
+        入力メソッド名と　入力メソッド型と
+        ラッパークラスと　ラッパーメソッド型
+    全体は　３個の　入力単語情報。
+
+入力単語情報集は　暗黙の構造体　入力単語情報型。
+
+（・ー＞・）
+入力単語情報集を初期化とは
+    入力単語情報集を　クリアし
+
+    「一文字列入力」を　
+    入力単語情報集の　入力単語名（１）に　入れ
+    「next」を
+    入力単語情報集の　入力メソッド名（１）に　入れ
+    「()Ljava/lang/String;」を
+    入力単語情報集の　入力メソッド型（１）に　入れ
+
+    「文字列入力」を　
+    入力単語情報集の　入力単語名（２）に　入れ
+    「nextLine」を
+    入力単語情報集の　入力メソッド名（２）に　入れ
+    「()Ljava/lang/String;」を
+    入力単語情報集の　入力メソッド型（２）に　入れ
+
+    「一数値入力」を　
+    入力単語情報集の　入力単語名（３）に　入れ
+    「nextInt」を
+    入力単語情報集の　入力メソッド名（３）に　入れ
+    「()I」を
+    入力単語情報集の　入力メソッド型（３）に　入れ
+    「java/lang/Integer」を
+    入力単語情報集の　ラッパークラス（３）に　入れ
+    「(I)Ljava/lang/Integer;」を
+    入力単語情報集の　ラッパーメソッド型（３）に　入れ。
+
+（文字列ー＞インデックス・真）
+（文字列ー＞偽）
+定義済み入力単語？とは
+    検査文字列は　文字列
+    検査文字列に　入れ
+    入力単語情報の　要素数を　回数指定し、
+        入力単語情報集の　入力単語名（回数）と　検査文字列が　等しい文字列　ならば
+            回数と　真をつみ　終わり
+        つぎに
+    繰り返し、
+    偽を　返すこと。
+
+（インデックスー＞）
+（Scannerインデックス・System.inインデックス・<init>インデックス・）
+（next*インデックス・[valueOfインデックス(必要ないなら-１)]）
+入力単語の定数フィールドを追加するとは
+    インデックスは　変数
+    追加数は　変数
+
+    （文字列・バイトー＞・）
+    文字列化して追加とは
+        バイト数指定で文字列化したものを、　
+        ランタイム定数フィールドをメモファイルに書き込み
+
+    本体とは
+        インデックスに　入れ
+        追加数を　クリアし
+
+        メソッドランタイム定数フィールド数と
+        「java/util/Scanner」で
+            クラスランタイム定数フィールド情報を得て　偽？　ならば
+            ランタイム定数フィールドをメモファイルに書き込み
+            追加数を　増加させ
+        つぎに
+        (Scannerインデックスがつまれた)
+        
+        ※Fieldref
+        メソッドランタイム定数フィールド数に　追加数を　加え
+        「java/lang/System」と　「in」と　「Ljava/io/InputStream;」で
+            Fieldランタイム定数フィールド情報を得て　偽？　ならば
+            ランタイム定数フィールドをメモファイルに書き込み
+            追加数を　増加させ
+        つぎに
+        (System.inインデックスがつまれた)
+
+        ※Methodref
+        メソッドランタイム定数フィールド数に　追加数を　加え
+        「java/util/Scanner」と　「<init>」と　「(Ljava/io/InputStream;)V」で
+            Methodランタイム定数フィールド情報を得て　偽？　ならば
+            ランタイム定数フィールドをメモファイルに書き込み
+            追加数を　増加させ
+        つぎに
+        (initインデックスがつまれた)
+
+        ※Methodref (next*)
+        メソッドランタイム定数フィールド数に　追加数を　加え
+        「java/util/Scanner」と
+        入力メソッド名（インデックス）と
+        入力メソッド型（インデックス）とで
+            Methodランタイム定数フィールド情報を得て　偽？　ならば
+            ランタイム定数フィールドをメモファイルに書き込み
+            追加数を　増加させ
+        つぎに
+        (next*インデックスがつまれた)
+
+        ※Methodref (ラッパー)
+        ラッパークラス（インデックス）が　空列？　ならば
+            －１をつみ
+        さもなければ
+            メソッドランタイム定数フィールド数に　追加数を　加え
+            ラッパークラス（インデックス）と
+            「valueOf」と
+            ラッパーメソッド型（インデックス）とで
+                Methodランタイム定数フィールド情報を得て　偽？　ならば
+                ランタイム定数フィールドをメモファイルに書き込み
+                追加数を　増加させ
+            つぎに
+        つぎに
+        (ラッパーメソッドのインデックスがつまれた)
+
+        メソッドランタイム定数フィールド数を
+            追加数だけ　増加させ。
+
+（インデックスー＞・）
+※        aload_1
+※        new        // class java/util/Scanner
+※        dup
+※        getstatic     // Field java/lang/System.in:Ljava/io/InputStream;
+※        invokespecial // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+※        invokevirtual // Method java/util/Scanner.nextInt:()I
+※        invokestatic  // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+※        invokevirtual // Method java/util/Stack.push:(Ljava/lang/Object;)Ljava/lang/Object;
+※        pop
+単語認識入力単語時の処理とは、
+    インデックスは　変数
+    Scannerインデックスは　変数
+    inインデックスは　変数
+    initインデックスは　変数
+    nextインデックスは　変数
+    valueOfインデックスは　変数
+
+    インデックスに　入れ
+    
+    「これは入力単語です」を　文字列をテスト表示し、
+
+    インデックスをつかい
+    入力単語の定数フィールドを追加し、
+
+    Scannerインデックスと
+    inインデックスと
+    initインデックスと
+    nextインデックスと
+    valueOfインデックスに　入れ
+
+    ※aload_1
+    Stackaloadのデータを得て　オペコードのバイナリを追加し
+    
+    ※        new        // class java/util/Scanner
+    Scannerインデックスで　newのデータを得て
+    オペコードのバイナリを追加し
+
+    ※        dup
+    dupのデータを得て
+    オペコードのバイナリを追加し
+
+    ※        getstatic     // Field java/lang/System.in:Ljava/io/InputStream;
+    inインデックスで　getstaticのデータを得て
+    オペコードのバイナリを追加し
+    
+    ※        invokespecial // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+    initインデックスで　invokespecialのデータを得て
+    オペコードのバイナリを追加し
+
+    ※        invokevirtual // Method java/util/Scanner.nextInt:()I
+    nextインデックスで　invokevirtualのデータを得て
+    オペコードのバイナリを追加し
+
+    ※        invokestatic  // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+    valueOfインデックスが　正？　ならば
+        valueOfインデックスで invokestaticのデータを得て
+        オペコードのバイナリを追加し
+    つぎに
+
+    ※        invokevirtual // Method java/util/Stack.push:(Ljava/lang/Object;)Ljava/lang/Object;
+    push関数を得て invokevirtualのデータを得て
+    オペコードのバイナリを追加し
+
+    ※        pop
+    popのデータを得て
+    オペコードのバイナリを追加し。
