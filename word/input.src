@@ -187,8 +187,4 @@
 
     ※        invokevirtual // Method java/util/Stack.push:(Ljava/lang/Object;)Ljava/lang/Object;
     push関数を得て invokevirtualのデータを得て
-    オペコードのバイナリを追加し
-
-    ※        pop
-    popのデータを得て
-    オペコードのバイナリを追加し。
+    オペコードのバイナリを追加すること。

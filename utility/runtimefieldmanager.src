@@ -27,20 +27,20 @@ Stackイニシャライザを得るとは
 String配列クラスデータを得るとは
     １５を　返すこと。
 
-※   #1 = Class              #2             // java/util/Stack
-※   #2 = Utf8               java/util/Stack
+※   #1 = Class              #2             // java/util/LinkedList
+※   #2 = Utf8               java/util/LinkedList
 
-※   #3 = Methodref          #1.#4          // java/util/Stack.push:(Ljava/lang/Object;)Ljava/lang/Object;
-※   #4 = NameAndType        #5:#6          // push:(Ljava/lang/Object;)Ljava/lang/Object;
-※   #5 = Utf8               push
-※   #6 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+※   #3 = Methodref          #1.#4          // java/util/LinkedList.addFirst:(Ljava/lang/Object;)V
+※   #4 = NameAndType        #5:#6          // addFirst:(Ljava/lang/Object;)V
+※   #5 = Utf8               addFirst
+※   #6 = Utf8               (Ljava/lang/Object;)V
 
-※   #7 = Methodref          #1.#8         // java/util/Stack.pop:()Ljava/lang/Object;
-※   #8 = NameAndType        #9:#10        // pop:()Ljava/lang/Object;
-※   #9 = Utf8               pop
+※   #7 = Methodref          #1.#8         // java/util/LinkedList.removeFirst:()Ljava/lang/Object;
+※   #8 = NameAndType        #9:#10        // removeFirst:()Ljava/lang/Object;
+※   #9 = Utf8               removeFirst
 ※  #10 = Utf8               ()Ljava/lang/Object;
 
-※  #11 = Methodref          #1.#12          // java/util/Stack."<init>":()V
+※  #11 = Methodref          #1.#12          // java/util/LinkedList."<init>":()V
 ※  #12 = NameAndType        #13:#14          // "<init>":()V
 ※  #13 = Utf8               <init>
 ※  #14 = Utf8               ()V
@@ -51,21 +51,21 @@ String配列クラスデータを得るとは
     （文字列・バイトー＞・）
     文字列化して追加とは
         バイト数指定で文字列化したものを、　ランタイム定数フィールドバイナリに　追加し
-    
+
     本体とは
     ランタイム定数フィールドバイナリを　クリアし
 
     ０７Ｈと　２を　二バイト合成したものを　３バイトで　文字列化して追加し、
-    「java/util/Stack」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
+    「java/util/LinkedList」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
 
     ０ＡＨを　１バイトで　文字列化して追加し　１を　２バイトで　文字列化して追加し　４を　２バイトで　文字列化して追加し、
     ０ＣＨと　１バイトで　文字列化して追加し　５を　２バイトで　文字列化して追加し　６を　２バイトで　文字列化して追加し、
-    「push」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
-    「(Ljava/lang/Object;)Ljava/lang/Object;」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
+    「addFirst」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
+    「(Ljava/lang/Object;)V」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
 
     ０ＡＨを　１バイトで　文字列化して追加し　１を　２バイトで　文字列化して追加し　８を　２バイトで　文字列化して追加し、
     ０ＣＨと　１バイトで　文字列化して追加し　９を　２バイトで　文字列化して追加し　１０を　２バイトで　文字列化して追加し、
-    「pop」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
+    「removeFirst」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
     「()Ljava/lang/Object;」で　ＵＴＦ８へ変換し　ＵＴＦ８のランタイム定数フィールドを得て　ランタイム定数フィールドバイナリに　追加し、
 
     ０ＡＨを　１バイトで　文字列化して追加し　１を　２バイトで　文字列化して追加し　１２を　２バイトで　文字列化して追加し、

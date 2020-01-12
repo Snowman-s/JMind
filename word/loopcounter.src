@@ -56,7 +56,4 @@
     (返り値で)　invokestaticのデータを得て　オペコードのバイナリを追加し
 
     ※invokevirtual
-    push関数を得て、invokevirtualのデータを得て　オペコードのバイナリを追加し
-
-    ※pop
-    popのデータを得て　オペコードのバイナリを追加すること。
+    push関数を得て、invokevirtualのデータを得て　オペコードのバイナリを追加すること。
