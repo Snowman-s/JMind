@@ -36,6 +36,7 @@ word/sloopcounter.src
 word/scheck.src
 word/sif.src
 word/sloop.src
+word/sstackoperate.src
 word/sothers.src
 word/scomment.src
 word/sinput.src
