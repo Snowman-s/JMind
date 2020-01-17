@@ -6,8 +6,9 @@ MindをJVM上で動くように!
 - Mindのインストールディレクトリ内の「srclib」内にある、「uniencode.src」および「unidecode.src」を、このREADME.mdと同じパスにコピペする。
 - 「compileutf8.cmd」を、このREADMEファイルのディレクトリで実行する。
 # 実行
-- 「jmind/」内に、UTF8で好きなファイル名でMindプログラムを書く。(他の場所でもいいですが、jmind内に書けば無視されるので、推奨します。)
-- .\sjmindc jmind/<file_name>でそのソースをコンパイルする。
+- 「jmind/」内に、UTF8で好きなファイル名でMindプログラムを書く。(他の場所でもいいですが、jmind内に書けばgitに無視されるので、推奨します。)
+- .\sjmindc jmind\<file_name>でそのソースをコンパイルする。
+  - **パスの区切りとして「/」は使用できません。**
 - 「cd jmind」を実行し、「java <file_name(no ext)>」でコンパイルした.classファイルが動作します。
 # 現在の注意点(後々修正)
 - 機能は大幅に制限されている
