@@ -10,7 +10,7 @@ schange filestackmaptable.src
 schange filelocalvariable.src
 cd ..\word\
 schange cwordcheck.src
-schange string.src
+schange cstring.src
 schange print.src
 schange calc.src
 schange inspect_character.src
