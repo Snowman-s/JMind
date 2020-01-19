@@ -18,7 +18,7 @@
 「sopecode.src」を　コンパイル。
 「sstackmaptable.src」を　コンパイル。
 「word\scwordcheck.src」を　コンパイル。
-「word\sstring.src」を　コンパイル。
+「word\scstring.src」を　コンパイル。
 「word\scinteger.src」を　コンパイル。
 「word\sloopcounter.src」を　コンパイル。
 「word\sprint.src」を　コンパイル。
@@ -28,6 +28,8 @@
 「word\sloop.src」を　コンパイル。
 「word\sinput.src」を　コンパイル。
 「word\sstackoperate.src」を　コンパイル。
+「word\sstringoperate.src」を　コンパイル。
+「word\scchar.src」を　コンパイル。
 「word\sothers.src」を　コンパイル。
 「word\scomment.src」を　コンパイル。
 「word\swordcheck.src」を　コンパイル。

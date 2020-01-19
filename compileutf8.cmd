@@ -10,7 +10,7 @@ schange filestackmaptable.src
 schange filelocalvariable.src
 cd ..\word\
 schange cwordcheck.src
-schange string.src
+schange cstring.src
 schange print.src
 schange calc.src
 schange inspect_character.src
@@ -21,7 +21,9 @@ schange if.src
 schange loop.src
 schange others.src
 schange input.src
+schange stringoperate.src
 schange stackoperate.src
+schange cchar.src
 schange comment.src
 schange wordcheck.src
 cd ..\runtimefield\
