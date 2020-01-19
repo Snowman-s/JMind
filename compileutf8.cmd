@@ -23,6 +23,7 @@ schange others.src
 schange input.src
 schange stringoperate.src
 schange stackoperate.src
+schange cchar.src
 schange comment.src
 schange wordcheck.src
 cd ..\runtimefield\
