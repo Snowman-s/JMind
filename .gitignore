@@ -27,6 +27,7 @@ runtimefield/sruntimefieldMethod.src
 runtimefield/sruntimefieldField.src
 word/scwordcheck.src
 word/scstring.src
+word/sstringoperate.src
 word/sprint.src
 word/sinspect_character.src
 word/scalc.src

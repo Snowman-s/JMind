@@ -106,11 +106,7 @@
 
     スタック操作単語情報集の
     スタック操作でremoveを使用するか（インデックス）が　真？　ならば
-        ※Methodref
-        メソッドランタイム定数フィールド数で
-        「java/util/LinkedList」と　「remove」と　「(I)Ljava/lang/Object;」で
-        Methodランタイム定数フィールド情報を得て
-        ランタイム定数フィールド取得後処理し
+        remove関数を得て、
     つぎに
 
     スタック操作単語情報集の

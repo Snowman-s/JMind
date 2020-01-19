@@ -21,6 +21,7 @@ schange if.src
 schange loop.src
 schange others.src
 schange input.src
+schange stringoperate.src
 schange stackoperate.src
 schange comment.src
 schange wordcheck.src
