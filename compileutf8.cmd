@@ -8,6 +8,7 @@ schange fileopecode.src
 schange fileruntimefield.src
 schange filestackmaptable.src
 schange filelocalvariable.src
+schange fileloopoperate.src
 cd ..\word\
 schange cwordcheck.src
 schange cstring.src
@@ -23,6 +24,7 @@ schange others.src
 schange input.src
 schange stringoperate.src
 schange stackoperate.src
+schange loopoperate.src
 schange cchar.src
 schange comment.src
 schange wordcheck.src

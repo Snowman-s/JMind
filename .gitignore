@@ -21,6 +21,7 @@ file/sfileruntimefield.src
 file/sfileopecode.src
 file/sfilestackmaptable.src
 file/sfilelocalvariable.src
+file/sfileloopoperate.src
 runtimefield/sruntimefieldClass.src
 runtimefield/sruntimefieldNameAndType.src
 runtimefield/sruntimefieldMethod.src
@@ -39,6 +40,7 @@ word/scheck.src
 word/sif.src
 word/sloop.src
 word/sstackoperate.src
+word/sloopoperate.src
 word/sothers.src
 word/scomment.src
 word/sinput.src

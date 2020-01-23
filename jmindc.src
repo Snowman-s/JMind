@@ -10,6 +10,7 @@
 「file\sfileopecode.src」を　コンパイル。
 「file\sfilestackmaptable.src」を　コンパイル。
 「file\sfilelocalvariable.src」を　コンパイル。
+「file\sfileloopoperate.src」を　コンパイル。
 「utility\sruntimefieldmanager.src」を　コンパイル。
 「runtimefield\sruntimefieldClass.src」を　コンパイル。
 「runtimefield\sruntimefieldNameAndType.src」を　コンパイル。
@@ -28,6 +29,7 @@
 「word\sloop.src」を　コンパイル。
 「word\sinput.src」を　コンパイル。
 「word\sstackoperate.src」を　コンパイル。
+「word\sloopoperate.src」を　コンパイル。
 「word\sstringoperate.src」を　コンパイル。
 「word\scchar.src」を　コンパイル。
 「word\sothers.src」を　コンパイル。
@@ -124,6 +126,7 @@
         ランタイム定数フィールドメモファイル書き込み準備し
         オペコードメモファイル書き込み準備し
         スタックマップテーブルメモファイル書き込み準備し
+        ループ操作単語メモファイル書き込み準備し
 
         一関数定義ファイルへ書き出して読み出し準備し　真？　ならば
             打ち切り
