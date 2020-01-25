@@ -26,7 +26,6 @@ schange stringoperate.src
 schange stackoperate.src
 schange loopoperate.src
 schange cchar.src
-schange comment.src
 schange wordcheck.src
 cd ..\runtimefield\
 schange runtimefieldClass.src

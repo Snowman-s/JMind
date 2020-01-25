@@ -33,7 +33,6 @@
 「word\sstringoperate.src」を　コンパイル。
 「word\scchar.src」を　コンパイル。
 「word\sothers.src」を　コンパイル。
-「word\scomment.src」を　コンパイル。
 「word\swordcheck.src」を　コンパイル。
 「scompiler.src」を　コンパイル。
 
@@ -103,7 +102,7 @@
     ランタイム定数フィールド数集計と
     StackMapTableランタイム定数フィールド数集計を　クリアし
 
-    ＵＴＦ８テーブル初期化済みに　偽を　入れ
+    ＵＴＦ８テーブル初期化し
     ソースコード名で　ファイル操作初期化し
 
     「初期化完了」を　文字列をテスト表示し

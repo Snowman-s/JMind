@@ -36,9 +36,6 @@
 
     操作文字に　入れ
 
-    「これは文字です」を　文字列をテスト表示し
-    操作文字を　文字をテスト表示し
-
     ※Methodref
     メソッドランタイム定数フィールド数と
     「java/lang/Integer」と　「valueOf」と　「(I)Ljava/lang/Integer;」で
