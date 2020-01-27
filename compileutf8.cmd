@@ -39,5 +39,6 @@ schange functiontype.src
 schange opecode.src
 schange stackmaptable.src
 schange utf8rap.src
+schange equal_words.src
 
 umind jmindc.src
