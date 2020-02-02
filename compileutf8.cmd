@@ -2,6 +2,7 @@
 cd .\utility\
 schange bytecomposition.src
 schange runtimefieldmanager.src
+schange opecodecreater.src
 cd ..\file\
 schange filereadwrite.src
 schange fileopecode.src
@@ -32,6 +33,7 @@ schange runtimefieldClass.src
 schange runtimefieldNameAndType.src
 schange runtimefieldMethod.src
 schange runtimefieldField.src
+schange runtimefieldIntegerUtility.src
 cd ..
 schange debug.src
 schange compiler.src

@@ -17,6 +17,7 @@ sequal_words.src
 sdebug.src
 utility/sbytecomposition.src
 utility/sruntimefieldmanager.src
+utility/sopecodecreater.src
 file/sfilereadwrite.src
 file/sfileruntimefield.src
 file/sfileopecode.src
@@ -27,6 +28,7 @@ runtimefield/sruntimefieldClass.src
 runtimefield/sruntimefieldNameAndType.src
 runtimefield/sruntimefieldMethod.src
 runtimefield/sruntimefieldField.src
+runtimefield/sruntimefieldIntegerUtility.src
 word/scwordcheck.src
 word/scchar.src
 word/scstring.src

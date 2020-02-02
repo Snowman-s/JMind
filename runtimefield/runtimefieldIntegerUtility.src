@@ -1,0 +1,22 @@
+（・ー＞）
+（Integerインデックス・IntegerIntValueインデックス・IntegerValueOfインデックス）
+整数関係の定数フィールドを追加するとは
+    ※Class
+    メソッドランタイム定数フィールド数と　「java/lang/Integer」で
+    クラスランタイム定数フィールド情報を得て
+    ランタイム定数フィールド取得後処理し
+    (Integerインデックスがつまれた)
+
+    ※Methodref
+    メソッドランタイム定数フィールド数と
+    「java/lang/Integer」と　「intValue」と　「()I」で
+    Methodランタイム定数フィールド情報を得て
+    ランタイム定数フィールド取得後処理し
+    (IntValueインデックスがつまれた)
+
+    ※Methodref
+    メソッドランタイム定数フィールド数と
+    「java/lang/Integer」と　「valueOf」と　「(I)Ljava/lang/Integer;」で
+    Methodランタイム定数フィールド情報を得て
+    ランタイム定数フィールド取得後処理し
+    (ValueOfインデックスがつまれた)。

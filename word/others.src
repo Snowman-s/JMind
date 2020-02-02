@@ -1,10 +1,15 @@
 その他単語終処理とは　仮定義。
 その他単語実行終処理とは　仮定義。
 その他単語無処理処理とは　仮定義。
+その他単語大方処理とは　仮定義。
+その他単語小方処理とは　仮定義。
+その他単語絶対値処理とは　仮定義。
+その他単語日時値得処理とは　仮定義。
 
 定義済みその他単語は　文字列定数配列
     「終」　「実行終」
-    「無処理」。
+    「無処理」　「大方」　「小方」　「絶対値」
+    「日時値得」。
 
 （文字列ー＞その他単語インデックス・真）
 （文字列ー＞偽）
@@ -26,6 +31,10 @@
         １なら　その他単語終処理し
         ２なら　その他単語実行終処理し
         ３なら　その他単語無処理処理し
+        ４なら　その他単語大方処理し
+        ５なら　その他単語小方処理し
+        ６なら　その他単語絶対値処理し
+        ７なら　その他単語日時値得処理し
         例外なら　無処理
     事例終わり。
 
@@ -39,12 +48,153 @@
     ※Methodref
     メソッドランタイム定数フィールド数をつみ
     「java/lang/System」と　「exit」と　「(I)V」で
-        Methodランタイム定数フィールド情報を得て　偽？　ならば
-        ランタイム定数フィールドをメモファイルに書き込み
-        メソッドランタイム定数フィールド数を　増加させ
-    つぎに
+    Methodランタイム定数フィールド情報を得て　
+    ランタイム定数フィールド取得後処理し
     invokestaticのデータを得て、オペコードのバイナリを追加し。
 
 その他単語無処理処理は　本定義
     ※nopのデータを得て　オペコードのバイナリを追加し
     。
+
+その他単語大方処理とは　本定義
+    Integerインデックスは　変数
+    IntegerIntValueインデックスは　変数
+    IntegerValueOfインデックスは　変数
+    maxインデックスは　変数
+
+    整数関係の定数フィールドを追加し、
+    Integerインデックスと
+    IntegerIntValueインデックスと
+    IntegerValueOfインデックスに　入れ
+
+    ※Methodref
+    メソッドランタイム定数フィールド数をつみ
+    「java/lang/Math」と　「max」と　「(II)I」で
+    Methodランタイム定数フィールド情報を得て　
+    ランタイム定数フィールド取得後処理し
+    maxインデックスに　入れ
+
+    ※aload_1
+    Stackaloadのデータを得て　オペコードのバイナリを追加し
+
+    ２で　指定数整数を取り出すオペコードを追加し
+
+    ※invokestatic
+    maxインデックスで　invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokestatic
+    IntegerValueOfインデックスで　invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokevirtual
+    push関数を得て、invokevirtualのデータを得て　
+    オペコードのバイナリを追加すること。
+
+その他単語小方処理とは　本定義
+    Integerインデックスは　変数
+    IntegerIntValueインデックスは　変数
+    IntegerValueOfインデックスは　変数
+    minインデックスは　変数
+
+    整数関係の定数フィールドを追加し、
+    Integerインデックスと
+    IntegerIntValueインデックスと
+    IntegerValueOfインデックスに　入れ
+
+    ※Methodref
+    メソッドランタイム定数フィールド数をつみ
+    「java/lang/Math」と　「min」と　「(II)I」で
+    Methodランタイム定数フィールド情報を得て　
+    ランタイム定数フィールド取得後処理し
+    minインデックスに　入れ
+
+    ※aload_1
+    Stackaloadのデータを得て　オペコードのバイナリを追加し
+
+    ２で　指定数整数を取り出すオペコードを追加し
+
+    ※invokestatic
+    minインデックスで　invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokestatic
+    IntegerValueOfインデックスで　invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokevirtual
+    push関数を得て、invokevirtualのデータを得て　
+    オペコードのバイナリを追加すること。
+
+その他単語絶対値処理とは　本定義
+    Integerインデックスは　変数
+    IntegerIntValueインデックスは　変数
+    IntegerValueOfインデックスは　変数
+    absインデックスは　変数
+
+    整数関係の定数フィールドを追加し、
+    Integerインデックスと
+    IntegerIntValueインデックスと
+    IntegerValueOfインデックスに　入れ
+
+    ※Methodref
+    メソッドランタイム定数フィールド数をつみ
+    「java/lang/Math」と　「abs」と　「(I)I」で
+    Methodランタイム定数フィールド情報を得て　
+    ランタイム定数フィールド取得後処理し
+    absインデックスに　入れ
+
+    ※aload_1
+    Stackaloadのデータを得て　オペコードのバイナリを追加し
+
+    １で　指定数整数を取り出すオペコードを追加し
+
+    ※invokestatic
+    absインデックスで　invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokestatic
+    IntegerValueOfインデックスで　invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokevirtual
+    push関数を得て、invokevirtualのデータを得て　
+    オペコードのバイナリを追加すること。
+
+その他単語絶対値処理とは　本定義
+    Integerインデックスは　変数
+    IntegerIntValueインデックスは　変数
+    IntegerValueOfインデックスは　変数
+    currentTimeMillisインデックスは　変数
+
+    整数関係の定数フィールドを追加し、
+    Integerインデックスと
+    IntegerIntValueインデックスと
+    IntegerValueOfインデックスに　入れ
+
+    ※Methodref
+    メソッドランタイム定数フィールド数をつみ
+    「java/lang/System」と　「currentTimeMills」と　「()J」で
+    Methodランタイム定数フィールド情報を得て　
+    ランタイム定数フィールド取得後処理し
+    currentTimeMillisインデックスに　入れ
+
+    ※aload_1
+    Stackaloadのデータを得て　オペコードのバイナリを追加し
+
+    ※invokestatic
+    currentTimeMillisインデックスで
+    invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※l2i
+    l2iのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokestatic
+    IntegerValueOfインデックスで　invokestaticのデータを得て
+    オペコードのバイナリを追加し
+
+    ※invokevirtual
+    push関数を得て、invokevirtualのデータを得て　
+    オペコードのバイナリを追加すること。

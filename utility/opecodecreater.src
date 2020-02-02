@@ -1,0 +1,46 @@
+（使用整数数ー＞・）
+指定数整数を取り出すオペコードを追加するとは
+    Integerインデックスは　変数
+    IntegerIntValueインデックスは　変数
+    使用整数数は　変数
+
+    使用整数数に　入れ
+
+    ※Class
+    メソッドランタイム定数フィールド数と　「java/lang/Integer」で
+    クラスランタイム定数フィールド情報を得て
+    ランタイム定数フィールド取得後処理し
+    (Integerインデックスがつまれた)
+
+    ※Methodref
+    メソッドランタイム定数フィールド数と
+    「java/lang/Integer」と　「intValue」と　「()I」で
+    Methodランタイム定数フィールド情報を得て
+    ランタイム定数フィールド取得後処理し
+    (IntValueインデックスがつまれた)
+
+    Integerインデックスと
+    IntegerIntValueインデックスに　入れ
+
+    使用整数数を　回数指定し
+        ※aload_1
+        Stackaloadのデータを得て　オペコードのバイナリを追加し
+
+        ※invokevirtual //Method
+        使用整数数から　回数を　引き　複写し　ゼロ？　ならば
+            （引いたデータを）　捨て
+            pop関数を得て、
+        さもなければ
+            （引いたデータで）
+            iconst_iのデータを得て　オペコードのバイナリを追加し
+            remove関数を得て、
+        つぎに
+        invokevirtualのデータを得て　オペコードのバイナリを追加し
+
+        ※checkcast #n+1
+        Integerインデックスで
+        checkcastのデータを得て、オペコードのバイナリを追加することを
+        ※invokevirtual #n+3
+        IntegerIntValueインデックスで
+        invokevirtualのデータを得て　オペコードのバイナリを追加し
+    繰り返し。

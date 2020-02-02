@@ -17,7 +17,9 @@
 「runtimefield\sruntimefieldNameAndType.src」を　コンパイル。
 「runtimefield\sruntimefieldMethod.src」を　コンパイル。
 「runtimefield\sruntimefieldField.src」を　コンパイル。
+「runtimefield\sruntimefieldIntegerUtility.src」を　コンパイル。
 「sopecode.src」を　コンパイル。
+「utility\sopecodecreater.src」を　コンパイル。
 「sstackmaptable.src」を　コンパイル。
 「word\scwordcheck.src」を　コンパイル。
 「word\scstring.src」を　コンパイル。
