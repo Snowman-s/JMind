@@ -4,7 +4,7 @@ MindをJVM上で動くように!
 - Mind(最低バージョン8)をインストールする。  
 - https://github.com/Snowman-s/MindTools をクローンし、手順に従ってセットアップする。
 - Mindのインストールディレクトリ内の「srclib」内にある、「uniencode.src」および「unidecode.src」を、このREADME.mdと同じパスにコピペする。
-- 「compileutf8.cmd」を、このREADMEファイルのディレクトリで実行する。
+- 「umind jmindc.src」を、このREADMEファイルのディレクトリで実行する。
 # 実行
 - 「jmind/」内に、UTF8で好きなファイル名でMindプログラムを書く。(他の場所でもいいですが、jmind内に書けばgitに無視されるので、推奨します。)
 - .\sjmindc jmind\\\<file_name>でそのソースをコンパイルする。
