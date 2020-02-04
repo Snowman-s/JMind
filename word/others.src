@@ -161,7 +161,7 @@
     push関数を得て、invokevirtualのデータを得て　
     オペコードのバイナリを追加すること。
 
-その他単語絶対値処理とは　本定義
+その他単語日時値得処理とは　本定義
     Integerインデックスは　変数
     IntegerIntValueインデックスは　変数
     IntegerValueOfインデックスは　変数
