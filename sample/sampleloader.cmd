@@ -1,8 +1,9 @@
 @ECHO OFF
-..\sjmindc.exe HelloWorld.src
-..\sjmindc.exe If.src
-..\sjmindc.exe For.src
-..\sjmindc.exe FizzBuzz.src
-..\sjmindc.exe StackOperate.src
-..\sjmindc.exe MWithJava.src
+..\jmindc.exe EndEx.src
+..\jmindc.exe HelloWorld.src
+..\jmindc.exe If.src
+..\jmindc.exe For.src
+..\jmindc.exe FizzBuzz.src
+..\jmindc.exe StackOperate.src
+..\jmindc.exe MWithJava.src
 javac -encoding UTF8 JWithJava.java
