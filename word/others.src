@@ -174,7 +174,7 @@
 
     ※Methodref
     メソッドランタイム定数フィールド数をつみ
-    「java/lang/System」と　「currentTimeMills」と　「()J」で
+    「java/lang/System」と　「currentTimeMillis」と　「()J」で
     Methodランタイム定数フィールド情報を得て　
     ランタイム定数フィールド取得後処理し
     currentTimeMillisインデックスに　入れ
