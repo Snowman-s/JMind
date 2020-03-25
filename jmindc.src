@@ -37,6 +37,9 @@
 「word\sloopoperate.src」を　コンパイル。
 「word\sstringoperate.src」を　コンパイル。
 「word\scchar.src」を　コンパイル。
+「word\sdeclare.src」を　コンパイル。
+「word\sintvariable.src」を　コンパイル。
+「word\sintvariableoperate.src」を　コンパイル。
 「word\sothers.src」を　コンパイル。
 「word\swordcheck.src」を　コンパイル。
 「scompiler.src」を　コンパイル。
