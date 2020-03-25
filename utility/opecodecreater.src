@@ -44,3 +44,32 @@
         IntegerIntValueインデックスで
         invokevirtualのデータを得て　オペコードのバイナリを追加し
     繰り返し。
+
+※！予めaload_<Stack>を追加しておく必要があります！
+（・ー＞・）
+一つ整数をスタックに積むオペコードを追加するとは
+    Integerインデックスは　変数
+    IntegerValueofインデックスは　変数
+
+    ※Class
+    メソッドランタイム定数フィールド数と　「java/lang/Integer」で
+    クラスランタイム定数フィールド情報を得て
+    ランタイム定数フィールド取得後処理し
+    (Integerインデックスがつまれた)
+
+    ※Methodref
+    メソッドランタイム定数フィールド数と
+    「java/lang/Integer」と　「valueOf」と　「(I)Ljava/lang/Integer;」で
+    Methodランタイム定数フィールド情報を得て
+    ランタイム定数フィールド取得後処理し
+    (Valueofインデックスがつまれた)
+
+    Integerインデックスと
+    IntegerValueofインデックスに　入れ
+
+    ※invokestatic
+    IntegerValueofインデックスで
+    invokestaticのデータを得て　オペコードのバイナリを追加し
+    ※invokevirtual
+    push関数を得て
+    invokevirtualのデータを得て　オペコードのバイナリを追加し。
