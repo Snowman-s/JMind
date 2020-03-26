@@ -5,6 +5,7 @@
 ..\jmindc.exe InputSum.src
 ..\jmindc.exe For.src
 ..\jmindc.exe FizzBuzz.src
+..\jmindc.exe FizzBuzz2.src
 ..\jmindc.exe StackOperate.src
 ..\jmindc.exe Declare.src
 ..\jmindc.exe MWithJava.src
